@@ -37,7 +37,7 @@ This is a Retrieval-Augmented Generation (RAG) project that automates the creati
 ## 🗂️ Project Structure
 
 ```
-cold-email-generator/
+cold-mail-generator/
 ├── composer/
 │   ├── draft_mail.py       # Generates and formats the email draft
 │   └── prompts.py          # Contains prompt templates for the LLM
@@ -81,7 +81,7 @@ cold-email-generator/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/arpon-kapuria/cold-email-generator.git
+   git clone https://github.com/arpon-kapuria/cold-mail-generator.git
    cd cold-email-generator
    ```
 
