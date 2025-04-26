@@ -1,0 +1,14 @@
+Subject: Prospective Master's Student - [Insert your intended session]
+
+Dear Professor Xie,
+
+I am Arpon Kapuria, a recent B.Tech graduate in Computer Science Engineering from National Institute of Technology, Tiruchirappalli (2020-2024), from Bangladesh. I am writing to express my strong interest in pursuing a Master's degree under your supervision at New York University.
+
+Your work on representation learning and multimodal LLMs resonates deeply with my research experiences and interests. Notably, your paper on "Deconstructing denoising diffusion models for self-supervised learning" caught my attention, as it explores the potential of diffusion models in self-supervised learning, an area I am keen to explore further. My research internships at Advanced Machine Intelligence Research Lab and MeDAL Lab, IIT Bombay, have equipped me with hands-on experience in investigating LLM reasoning capabilities and enhancing self-supervised learning frameworks, aligning with your research focus.
+
+I am excited about the prospect of contributing to and learning from your research group, particularly in areas related to robust visual intelligence and multimodal LLMs. I am confident that my skills in PyTorch, Python, and relevant project experiences make me a suitable candidate for your research group.
+
+I hope to have the opportunity to discuss my application and research interests with you further. My CV, transcript, and portfolio are available for your reference.
+
+Sincerely,
+Arpon Kapuria

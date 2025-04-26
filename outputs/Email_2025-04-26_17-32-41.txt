@@ -1,0 +1,12 @@
+Subject: Prospective PhD Student - [Insert your intended session]
+
+Dear Professor Xie,
+
+I am Arpon Kapuria, a recent B.Tech graduate in Computer Science Engineering from the National Institute of Technology, Tiruchirappalli (2020-2024), from Bangladesh. I am writing to express my strong interest in pursuing a PhD under your supervision at New York University.
+
+Your work on representation learning and multimodal LLMs resonates deeply with my research experiences and interests. My research internships at Advanced Machine Intelligence Research Lab and MeDAL Lab, IIT Bombay, have equipped me with hands-on experience in investigating LLM reasoning capabilities and enhancing self-supervised learning frameworks, aligning with your interests. I am particularly drawn to your papers on "Deconstructing denoising diffusion models for self-supervised learning" and "Momentum Contrast for Unsupervised Visual Representation Learning", which explore innovative approaches to self-supervised learning. Your work on "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs" also caught my attention, as it aligns with my interests in multimodal data and representation learning.
+
+I hope to discuss my application and research interests further, and I would appreciate any feedback you may have. My CV, transcript, and portfolio are available for your reference.
+
+Sincerely,
+Arpon Kapuria

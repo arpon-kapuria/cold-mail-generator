@@ -1,0 +1,13 @@
+langchain
+langchain_community
+pymupdf
+ipykernel
+langchain-groq
+beautifulsoup4
+faiss-cpu
+jq
+langchain-cohere
+cohere
+python-dotenv
+langchain-text-splitters
+tqdm
