@@ -17,7 +17,7 @@ This is a Retrieval-Augmented Generation (RAG) project that automates the creati
 4. **Auto-save:**  
    Generated emails are saved neatly with timestamps for easy later editing.
 
-> **Note:**  
+> **‼️ Note:**  
 > Please review and edit the email slightly before sending. While the LLM does a good job, small personal tweaks make it even better.
 
 ---
@@ -60,8 +60,8 @@ cold-mail-generator/
 │
 ├── .env                    # Environment variables (e.g., API keys)
 ├── .gitignore              # Specifies files and folders to ignore in Git
-├── main.py                 # Main script to run the application
 ├── README.md               # Project documentation
+├── main.py                 # Main script to run the application
 └── requirements.txt        # Dependencies
 ```
 
@@ -142,16 +142,17 @@ cold-mail-generator/
 ### ⚙️ Customization
 
 - **Prompt Template**  
-  Modify `composer/prompts.py` to customize the tone, structure, or content of the generated emails.
+  Customize the tone, structure, and content of the generated emails by editing [`composer/prompts.py`](composer/prompts.py).
 
 - **Model Settings**  
-  Adjust `configs/model_config.py` to change LLM parameters such as model name, temperature, etc.
+  Adjust LLM parameters such as model name, temperature, and others in [`configs/model_config.py`](configs/model_config.py).
 
 - **Data Cleaning & Retrieval**  
-  Enhance or change data processing logic inside the `processing/` directory.
+  Improve or modify the data processing logic inside the [`processing/`](processing/) directory.
 
-- **Reranking**
-  Use reranker in `preprocessing/retrival.py` to retrieve more specific information. Currently this project doesn't use Reranker but it has reranking support.
+- **Reranking**  
+  Reranker support is available in [`processing/retrieval.py`](processing/retrieval.py) to retrieve more relevant information.  
+  *(Note: Reranking is currently optional and not enabled by default.)*
 
 ---
 
