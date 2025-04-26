@@ -22,6 +22,15 @@ This is a Retrieval-Augmented Generation (RAG) project that automates the creati
 
 ---
 
+### ⏳ TODO
+
+- [x] Run the project locally
+- [ ] Add a working mechanism with a workflow diagram
+- [ ] Integrate Streamlit app support
+- [ ] Extend to full-stack application support
+
+---
+
 ### 🧰 Tech Stack 
 
 - **Core Programming Language:** Python 
