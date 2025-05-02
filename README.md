@@ -4,6 +4,12 @@ This is a Retrieval-Augmented Generation (RAG) project that automates the creati
 
 ---
 
+### 🧠 Workflow 
+
+![Workflow Diagram](assets/workflow.svg)
+
+---
+
 ### ✨ Features
 
 1. **Generates emails based on:**
@@ -25,7 +31,7 @@ This is a Retrieval-Augmented Generation (RAG) project that automates the creati
 ### ⏳ TODO
 
 - [x] Run the project locally
-- [ ] Add a working mechanism with a workflow diagram
+- [x] Add a working mechanism with a workflow diagram
 - [ ] Integrate Streamlit app support
 - [ ] Extend to full-stack application support
 
@@ -37,7 +43,7 @@ This is a Retrieval-Augmented Generation (RAG) project that automates the creati
 - **LLM Framework:** LangChain
 - **Vector Database:** FAISS
 - **Web Scraping:** BeautifulSoup4
-- **Chat Model:** llama-4-maverick-17b-128e-instruct (Groq AI)
+- **Chat Model:** llama-4-maverick-17b-128e-instruct (Groq Cloud)
 - **Embedding Model:** jina-embeddings-v3 (Jina AI)
 - **Reranking Model:** rerank-v3.5 (Cohere AI)
 
