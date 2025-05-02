@@ -6,7 +6,7 @@ This is a Retrieval-Augmented Generation (RAG) project that automates the creati
 
 ### 🧠 Workflow 
 
-![Workflow Diagram](assets/workflow.svg)
+![Workflow Diagram](workflow.svg)
 
 ---
 
