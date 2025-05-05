@@ -32,7 +32,7 @@ This is a Retrieval-Augmented Generation (RAG) project that automates the creati
 
 - [x] Run the project locally
 - [x] Add a working mechanism with a workflow diagram
-- [ ] Integrate Streamlit app support
+- [x] Integrate Streamlit app support
 - [ ] Extend to full-stack application support
 
 ---
@@ -122,28 +122,21 @@ cold-mail-generator/
    Create a `.env` file in the root directory and add necessary environment variables:
 
    ```
-   GROQ_API_KEY=<groq_api_key>
-   JINA_API_TOKEN=<jina_api_token>
-   COHERE_API_KEY=<cohere_api_key>
+   GROQ_API_KEY="groq_api_key"
+   JINA_API_TOKEN="jina_api_token"
+   COHERE_API_KEY="cohere_api_key"
    ```
 
 ---
 
-### 📝 How to Run
+### 📝 How to Use
 
-1. **Provide the required inputs in main.py**
-
-   - Your applicant profile.
-   - Professor's website URL.
-   - List of papers you have read (optional).
-   - Degree you are applying for (`masters` or `phd`).
-
-2. **Execute the main script**
+1. **Launch the Streamlit app**
 
    ```bash
-   python3.9 main.py
+   streamlit main.py
    ```
-
+  
 2. **Result**
 
    - Your generated cold email will be printed on the screen AND saved automatically as a .txt file with the current date and time inside the `outputs/` folder.

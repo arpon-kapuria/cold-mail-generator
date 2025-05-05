@@ -10,6 +10,8 @@ from configs.model_config import llm
 from processing.data_cleaning import clean_text, remove_empty_values
 from composer.prompts import prompt_extract_user, combined_data_template
 
+import streamlit as st
+
 
 def load_data(source: Union[str, List[str]], source_type: Literal['url', 'pdf']):
     """
@@ -59,7 +61,7 @@ def json_data_using_chunking(chain, data):
                 elif isinstance(value, str) and value and not final_output[key]:
                     final_output[key] = value
         except Exception as e:
-            print("Server Error. Try again after some time...")
+            st.write("Server Error. Try again after some time...")
             sys.exit()
             # print(f"Chunk {i+1} failed:", e)
             # continue
@@ -105,7 +107,7 @@ def getCombinedJsonData(url_data : str, pdf_data : str):
     try:
         json_data = json_parser.parse(combined_res.content)
     except Exception as e:
-        print("Parsing Error. Please try again...")
+        st.write("Parsing Error. Please try again...")
         # print("❌ JSON parsing error:", e)
         # print("Please try again !")
         # return {}

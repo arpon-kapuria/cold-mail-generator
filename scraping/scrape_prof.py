@@ -4,11 +4,13 @@ from collections import defaultdict
 
 from langchain_community.document_loaders import WebBaseLoader
 from langchain_core.output_parsers import JsonOutputParser
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 from configs.model_config import llm
 from processing.data_cleaning import clean_text, remove_empty_values
 from composer.prompts import prompt_extract_prof
+
+import streamlit as st
 
 def load_data(source: Union[str, List[str]]):
     """
@@ -41,7 +43,7 @@ def getJsonData(data: str, token_limit=6000):
     
     except Exception as e:
         # print("Full input failed. Falling back to chunks...")
-        print("I see... you've passed a huge amount of data. I might take some extra time. Stay there!")
+        st.write("I see... you've passed a huge amount of data. I might take some extra time. Stay there!")
 
         # Fallback: split and process in chunks
         splitter = RecursiveCharacterTextSplitter(
@@ -63,7 +65,7 @@ def getJsonData(data: str, token_limit=6000):
                     elif isinstance(value, str) and value and not final_output[key]:
                         final_output[key] = value
             except Exception as e:
-                print("Server Error. Try again after some time...")
+                st.error("Server Error. Try again after some time...")
                 # print(f"Chunk {i+1} failed:", e)
                 sys.exit()
 

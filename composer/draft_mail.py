@@ -6,6 +6,8 @@ from langchain_core.output_parsers import StrOutputParser
 from configs.model_config import llm
 from composer.prompts import prompt_mail
 
+import streamlit as st
+
 
 def save_generated_mail(res):
     """
@@ -46,17 +48,18 @@ def generate_mail(applicant_text, prof_text, read_papers, degree):
             'read_papers': papers,
             'degree' : degree_seeking
         })
-        if not papers:
-            print("As you haven't read any paper, I will pick a random paper close to your background. ")
+        # if not papers:
+        #     st.write("Ah you haven't read any paper. You just made my work harder !!")
         
-        print("\n📧 Here is your Email. As it's AI generated, it's prone to mistakes. Feel free to modify the content - \n")
-        print(res)
+        # print(res)
 
         # Writes the generated mail to a file
         save_generated_mail(res)
 
+        return res
+
     except Exception as e:
-        print("Server Error. Try again after some time...")
+        st.error("Server Error. Try again after some time...")
         # print("Exact error: ", e)
         sys.exit()
 

@@ -11,3 +11,4 @@ cohere
 python-dotenv
 langchain-text-splitters
 tqdm
+streamlit
