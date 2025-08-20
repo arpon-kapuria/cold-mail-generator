@@ -134,7 +134,7 @@ cold-mail-generator/
 1. **Launch the Streamlit app**
 
    ```bash
-   streamlit main.py
+   streamlit run main.py
    ```
   
 2. **Result**

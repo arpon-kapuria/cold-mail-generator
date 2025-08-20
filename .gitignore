@@ -6,8 +6,9 @@ data/
 res/.DS_Store
 .DS_Store
 
-# model checkpoints
+# model checkpoints, artifacts, and outputs
 models/*
+outputs/*
 
 # C extensions
 *.so
