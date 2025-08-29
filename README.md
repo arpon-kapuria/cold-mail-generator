@@ -2,6 +2,42 @@
 
 This is a Retrieval-Augmented Generation (RAG) project that automates the creation of personalized cold emails for prospective Master's or PhD students reaching out to professors. It leverages vector search and large language models to craft highly tailored emails based on both the applicant’s and professor’s information.
 
+<br>
+
+<p align="center">
+   <a href="https://www.python.org/">
+      <img src="https://img.shields.io/badge/Python-3776AB.svg?logo=Python&logoColor=white" alt="Python"/>
+   </a>
+
+   <a href="https://www.langchain.com/">
+      <img src="https://img.shields.io/badge/LangChain-1C3C3C.svg?logo=LangChain&logoColor=white" alt="LangChain"/>
+   </a>
+
+   <a href="https://faiss.ai/">
+      <img src="https://img.shields.io/badge/FAISS-228B22?logo=meta&logoColor=white" alt="FAISS"/>
+   </a>
+
+   <a href="https://www.crummy.com/software/BeautifulSoup/">
+      <img src="https://img.shields.io/badge/BeautifulSoup4-ffff00?logo=pypi" alt="BeautifulSoup4"/>
+   </a>
+
+   <br>
+
+   <a href="https://console.groq.com/docs/model/meta-llama/llama-4-maverick-17b-128e-instruct">
+  <img src="https://img.shields.io/badge/Chat--Model-LLaMA--4--Maverick-F55036?labelColor=white" alt="LLaMA-4 (Groq Cloud)"/>
+   </a>
+
+   <a href="https://jina.ai/news/jina-embeddings-v3-a-frontier-multilingual-embedding-model/">
+  <img src="https://img.shields.io/badge/Embeddings--Model-Jina--Embeddings--v3-121212?labelColor=white" alt="Jina Embeddings v3"/>
+   </a>
+
+
+   <a href="https://cohere.com/blog/rerank-3pt5">
+   <img src="https://img.shields.io/badge/Reranking--Model-Cohere--Reranker--v3.5-436645?labelColor=white" alt="Cohere reranker v3.5"/>
+   </a>
+</p>
+
+
 ---
 
 ### 🧠 Workflow 
