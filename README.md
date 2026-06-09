@@ -1,6 +1,6 @@
-# 📧 RAG Powered Cold Email Generator 
+<div align="center">
 
-This is a Retrieval-Augmented Generation (RAG) project that automates the creation of personalized cold emails for prospective Master's or PhD students reaching out to professors. It leverages vector search and large language models to craft highly tailored emails based on both the applicant’s and professor’s information.
+# RAG Powered Cold Mail Generator
 
 <br>
 
@@ -37,6 +37,9 @@ This is a Retrieval-Augmented Generation (RAG) project that automates the creati
    </a>
 </p>
 
+This is a Retrieval-Augmented Generation (RAG) project that automates the creation of personalized cold emails for prospective Master's or PhD students reaching out to professors. It leverages vector search and large language models to craft highly tailored emails based on both the applicant’s and professor’s information.
+
+</div>
 
 ---
 
@@ -85,7 +88,7 @@ This is a Retrieval-Augmented Generation (RAG) project that automates the creati
 
 ---
 
-## 🗂️ Project Structure
+### 🗂️ Project Structure
 
 ```
 cold-mail-generator/
@@ -118,16 +121,14 @@ cold-mail-generator/
 
 ---
 
-## 🚀 Getting Started
+### 🚀 Getting Started
 
-### Prerequisites
+#### Prerequisites
 
 - Python 3.9 
 - Git installed on your system
 
----
-
-### 🛠️ Installation
+#### 🛠️ Installation
 
 1. **Clone the repository**
 
@@ -224,4 +225,8 @@ Contributions are always welcome. Potential areas to work on -
 - **Prompt Engineering:**  
   Design even better prompts to guide the LLM into generating more precise, context-aware, and impactful emails.
 
+---
 
+### License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
